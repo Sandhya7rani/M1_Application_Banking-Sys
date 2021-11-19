@@ -26,14 +26,28 @@
 #### 4. Threats
 ####    - Privacy issues
 ####    - Doing Fraud
-## Hardware Requirements
-####  - Operating System:Windows 7x or above or Ubuntu
-####  - RAM:256Mb or more
-####  - Hard Drive:10 GB 
+## 4W's and 1'H
+### Who : 
+#### Customers, Investors and Clients.
+### What :
+#### Creating set of operations for the bank users
+### When :
+#### When customer's bank details has to be stored and maintain
+### Where :
+#### At present the project execution lunch locally on system
+### How :
+#### Based on the research, identifying the features and implementing the requirements in the C programming language and test them to deliverying the product.
+## Detail Requirements
+### High level requirements
+| ID | Description | Status |
+|----|-------------|--------|
+| 1 | User should able to login into there account | Implemented |
+| 2 | The console should include the operations list | Implemented |
+| 3 | New user should able to create account | Implemented |
+### Software Requirements
+| ID | Description | Status |
+|----|-------------|--------|
+| 1 | Transaction of one account should not effect the another account| Implemented |
+| 2 | Processing of amount in account should be accurated | Implemented |
+| 3 | Duplicate of account details should be avoided | Implemented |
 
-
-## Software Requirements
-####   Visual Studio Code,GCC Compiler
-
-## Tools
-#### Ms Word
