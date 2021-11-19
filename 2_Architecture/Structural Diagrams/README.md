@@ -1,8 +1,8 @@
 
 # Structural Diagrams
 ## Class Diagram
-![Activity](https://user-images.githubusercontent.com/57440397/142664517-573fa8f4-9e4e-461a-99b8-b9
-## Package Diagram
-![Use Case](https://user-images.githubusercontent.com/57440397/142664935-ca944707-a7ac-4666-8750-ef79b7d2474e.png)
+![Class](https://user-images.githubusercontent.com/57440397/142665714-e8623bcd-b6e9-4493-aff7-91e18f154618.png)
 ## Deployment Diagram
-![Squence](https://user-images.githubusercontent.com/57440397/142665063-e944558f-b623-4ef1-8ab0-4cd110111055.png)
+![Deployment](https://user-images.githubusercontent.com/57440397/142665734-63f4cf41-7ada-4f31-9d72-715b6b77bce7.png)
+## Package Diagram
+![Package](https://user-images.githubusercontent.com/57440397/142665748-7095c3cd-2637-4de5-8282-b768ae52b670.png)
