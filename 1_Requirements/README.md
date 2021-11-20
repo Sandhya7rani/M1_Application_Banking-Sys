@@ -14,18 +14,8 @@
 ## Defining our system
 ####  Our system used to create the account for the user and have the set of operations for the user to checking the balance, withdraw,deposit and transfer the amount to different accounts.
 ## SWOT ANALYSIS
-#### 1. Strength
-####    - It achieves the security requirements for the user benefit
-####    - It provides the customer seamless experience
-#### 2. Weakness
-####    - It maintains legacy infrastructure
-####    - It has Limited features
-#### 3. Oppurtunities
-####    - Innovations
-####    - Providing personalised offers and discounts
-#### 4. Threats
-####    - Privacy issues
-####    - Doing Fraud
+<img width="314" alt="swot" src="https://user-images.githubusercontent.com/57440397/142719406-621cc975-4853-437e-b433-90d939b054f0.png">
+
 ## 4W's and 1'H
 ### Who : 
 #### Customers, Investors and Clients.
