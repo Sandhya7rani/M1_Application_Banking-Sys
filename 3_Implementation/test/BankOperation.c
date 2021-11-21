@@ -32,4 +32,5 @@ int transfer1(int totalamount,int transferaccount,int amount)
     return totalamount-amount;
     else
     return -1;
+    
 }
