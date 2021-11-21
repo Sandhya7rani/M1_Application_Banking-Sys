@@ -4,7 +4,7 @@
 
 Folder        | description
 --------------| ----------------------------------------------
-`.h`         | All header files
-`projectmain.c`         | Main source code for Bank operations
+`inc`         | All header files
+`src`         | Main source code for calculator
 `test`        | All source code and data for testing purposes
 `build`       | Build output (Not included in git)
