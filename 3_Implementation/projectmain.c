@@ -72,11 +72,18 @@ switch (ch)
 case 1:
     printf("\n Enter the amount to deposite=");
     scanf("%d",&amount);
-    totaldeposit=amount;
+    
+     if(totaldeposit>0)
+     {
+	     totaldeposit=amount;
      totalamount=diposite(totalamount,amount);
      printf("\nDeposite is Sucessful ");
      printf("\n");
     printf("The total amount in your account=%d",totalamount);
+     }
+     else
+	     printf("%d Invalid amount",amount);
+		
     break;
 case 2:
      printf("\nEnter the amount to withdraw=");
