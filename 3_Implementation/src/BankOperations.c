@@ -12,7 +12,6 @@ int login(int accountnumber,int password)
     return 0;
     else
     return -9;
-
 }
 int diposite(int totalamount,int amount)
 {
