@@ -1,4 +1,4 @@
-#include "BankOperations.h"
+#include "../inc/BankOperations.h"
 #include<string.h>
 #include<stdlib.h>
 #include<stdio.h>
