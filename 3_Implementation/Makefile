@@ -1,8 +1,9 @@
 #Target_name
 
 PROJ_NAME =	Bank
+BUILD = build
 SRC	= BankOperations.c projectmain.c
-
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 ifdef OS
 	RM=del /q
    	FixPath=$(subst /,\,$1)
@@ -14,18 +15,24 @@ else
 		EXEC =out
 	endif
 endif
+$(PROJECT_NAME):all
+
+# Run the target even if the matching name exists
+.PHONY: run clean test doc all
 
 
 
 
-build:
-	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJECT_OUTPUT))
 
-run: build
-	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-
+# Call `make run` to run the application
+run:$(PROJECT_NAME)
+	./$(call FixPath,$(PROJECT_OUTPUT))
 clean:
 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+$(BUILD):
+	mkdir build
 
 	
 
