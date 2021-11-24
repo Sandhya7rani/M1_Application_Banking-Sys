@@ -1,4 +1,4 @@
-#include "../inc/BankOperations.h"
+#include "./inc/BankOperations.h"
 #include<string.h>
 #include<stdlib.h>
 #include<stdio.h>
@@ -28,7 +28,6 @@ int transfer1(int totalamount,int transferaccount,int amount)
     (transferaccount==34567890)||
     (transferaccount==10101010)||
     (transferaccount==20202020))
-    
     return totalamount-amount;
     else
     return -1;
