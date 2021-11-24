@@ -1,5 +1,5 @@
-#include "unity.h"
-#include "BankOperations.h"
+#include "../unity/unity.h"
+#include "../inc/BankOperations.h"
 void setUp()
 {
 }
