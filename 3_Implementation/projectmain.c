@@ -25,7 +25,6 @@ printf("---------------------------");
 
 char ct='y';
 int amount=0;
-int totalamount=1000;
 int totaldeposit=0;
 int totalwithdraw=0;
 int totaltransfer=0;
@@ -41,10 +40,11 @@ char name[50];
 printf("\nEnter your name=");
 scanf("%s",name);
 printf("\nEnter your account=");
-scanf("%d",Details.accountnumber);
+scanf("%d",&Details.accountnumber);
 printf("\n Enter your password=");
-scanf("%d",Details.password);
-totalamount=login(&Detaild);
+scanf("%d",&Details.password);
+int totalamount;
+totalamount=login(&Details);
 if(totalamount!=-9)
  {  
                      /* valid the user*/  
@@ -74,7 +74,7 @@ case 1:
     printf("\n Enter the amount to deposite=");
     scanf("%d",&amount);
     
-     if(totaldeposit>0)
+     if(amount>0)
      {
 	     totaldeposit=amount;
      totalamount=diposite(totalamount,amount);
