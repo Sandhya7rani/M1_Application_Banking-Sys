@@ -1,5 +1,7 @@
-#include "../unity/unity.h"
+#include "../unit/unity.h"
 #include "../inc/BankOperations.h"
+#include "../inc/Account_details.h"
+
 void setUp()
 {
 }
@@ -8,9 +10,11 @@ void tearDown()
 }
 void test_login(void)
 {
-    int accountnum=12345678,password=11111111;
-    TEST_ASSERT_EQUAL(0,login(accountnum,password));
-    TEST_ASSERT_EQUAL(-9,login(password,accountnum));
+    details account2={123456783,111111114,0};
+    //int accountnum=12345678,password=11111111;
+    details account1={1111111,3322222};
+    TEST_ASSERT_EQUAL(-9,login(&account2));
+    TEST_ASSERT_EQUAL(-9,login(&account1));
     /* dummy fail*/
     //TEST_ASSERT_EQUAL(0,login(n2,n1));
 }
