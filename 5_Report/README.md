@@ -34,7 +34,7 @@
 |----|-------------|--------|
 | 1 | User should able to login into there account | Implemented |
 | 2 | The console should include the operations list | Implemented |
-| 3 | New user should able to create account | Implemented |
+| 3 | Status of the operation to be viewed  | Implemented |
 ### Software Requirements
 | ID | Description | Status |
 |----|-------------|--------|
