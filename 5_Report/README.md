@@ -6,12 +6,12 @@
 ## Research
 #### [Research Link](https://en.m.wikipedia.org/wiki/Online_banking)
 ## Features
-####  - Creation of the Account
+####  - Login of the Account
 ####  - Balance inquiry
 ####  - Adding Fund
 ####  - Cash withdraw
 ####  - Online transfer
-####  - Password changing
+
 ## Defining our system
 ####  Our system used to create the account for the user and have the set of operations for the user to checking the balance, withdraw,deposit and transfer the amount to different accounts.
 ## SWOT ANALYSIS
