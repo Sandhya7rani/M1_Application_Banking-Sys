@@ -47,7 +47,6 @@
 #### - Usecase Diagram
 #### - Sequence Diagram
 ## Structural Diagrams
-#### - Class Diagram
 #### - Package Diagram
 #### - Deployment Diagram
 # Behavioral Diagrams
@@ -58,8 +57,6 @@
 ## Sequence Diagram
 ![Squence](https://user-images.githubusercontent.com/57440397/142665063-e944558f-b623-4ef1-8ab0-4cd110111055.png)
 # Structural Diagrams
-## Class Diagram
-![Class](https://user-images.githubusercontent.com/57440397/142665714-e8623bcd-b6e9-4493-aff7-91e18f154618.png)
 ## Deployment Diagram
 ![Deployment](https://user-images.githubusercontent.com/57440397/142665734-63f4cf41-7ada-4f31-9d72-715b6b77bce7.png)
 ## Package Diagram
