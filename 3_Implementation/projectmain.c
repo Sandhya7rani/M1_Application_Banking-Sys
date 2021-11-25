@@ -11,6 +11,7 @@
 /*Header files */
 
 #include "./inc/BankOperations.h"
+#include "./inc/Account_details.h"
 #include<string.h>
 #include<stdio.h>
 #include<stdlib.h>
@@ -28,8 +29,7 @@ int totalamount=1000;
 int totaldeposit=0;
 int totalwithdraw=0;
 int totaltransfer=0;
-int accountnumber;    
-int password;
+details Details;
 int transferamount;
 int transferaccountnumber;
 printf("\n");
@@ -41,10 +41,10 @@ char name[50];
 printf("\nEnter your name=");
 scanf("%s",name);
 printf("\nEnter your account=");
-scanf("%d",&accountnumber);
+scanf("%d",Details.accountnumber);
 printf("\n Enter your password=");
-scanf("%d",&password);
-totalamount=login(accountnumber,password);
+scanf("%d",Details.password);
+totalamount=login(&Detaild);
 if(totalamount!=-9)
  {  
                      /* valid the user*/  
@@ -140,7 +140,7 @@ case 4:
 case 5:
       printf("\nYour Name=%s",name);
       printf("\n");
-      printf("Account Number=%d",accountnumber);
+      printf("Account Number=%d",Details.accountnumber);
       
       printf("\nThe total amount in your account=%d",totalamount);
       printf("\nThe total witdraw of your account=%d",totalwithdraw);
