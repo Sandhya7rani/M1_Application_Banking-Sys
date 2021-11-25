@@ -15,7 +15,7 @@ int login(details* Details)
     return -9;
 }
 int diposite(int totalamount,int amount)
-{
+{   printf("%d total",totalamount);
     return totalamount+amount;
 }
 int withdraw(int totalamount,int amount)
