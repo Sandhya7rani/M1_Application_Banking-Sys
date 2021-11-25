@@ -13,7 +13,7 @@
 ####  - Online transfer
 
 ## Defining our system
-####  Our system used to create the account for the user and have the set of operations for the user to checking the balance, withdraw,deposit and transfer the amount to different accounts.
+####  Our system have the set of operations for the user to checking the balance, withdraw,deposit and transfer the amount to different accounts.
 ## SWOT ANALYSIS
 <img width="314" alt="swot" src="https://user-images.githubusercontent.com/57440397/142719406-621cc975-4853-437e-b433-90d939b054f0.png">
 
