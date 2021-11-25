@@ -5,5 +5,6 @@ typedef struct Account
   int totalamount;
   int accountnumber;
   int password;
+  
 }details;
 #endif
